@@ -25,14 +25,14 @@ const Header = () => {
   return (
     <header className="header" onMouseLeave={handleMouseLeave}>
       <nav className="header-right">
-        <a
-          href="#Home"
+        <a href="#Home"
           id={selectedId === 'Home' ? 'Selected' : hoveredId === 'Home' ? 'Hovered' : ''}
           onMouseEnter={() => handleMouseEnter('Home')}
           onClick={() => handleClick('Home')}
         >
           Home
         </a>
+
         <a
           href="#Services"
           id={selectedId === 'Services' ? 'Selected' : hoveredId === 'Services' ? 'Hovered' : ''}
@@ -41,6 +41,7 @@ const Header = () => {
         >
           Services
         </a>
+
         <a
           href="#Portfolio"
           id={selectedId === 'Portfolio' ? 'Selected' : hoveredId === 'Portfolio' ? 'Hovered' : ''}
@@ -49,6 +50,7 @@ const Header = () => {
         >
           Portfolio
         </a>
+
         <a
           href="#Details"
           id={selectedId === 'Details' ? 'Selected' : hoveredId === 'Details' ? 'Hovered' : ''}
@@ -79,6 +81,17 @@ const Body = () => {
         <path d="M0.499939 0H450.536V440.5V819C401.615 801.327 315.017 760.911 246.501 703.374C173.515 642.082 121.048 561.359 156.502 468C171.502 428.5 244.775 277.836 115.966 190.5C-43.3194 82.5 55 74 0.499939 0Z" fill="#008C0D"/>
       </svg>
 
+      <div class='Services'>
+        
+      </div>
+
+      <div class='Portfolio'>
+
+      </div>
+
+      <div class='Details'>
+
+      </div>
     </div>
   );
 };

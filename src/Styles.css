@@ -76,13 +76,11 @@ body {
 }
 
 .IntroductoryText{
-  /* position: relative; */
   margin-top:290px;
   margin-left:100px;
   float: left;
   justify-content: center;
   font-size: 32px;
-  /* align-items: center; */
 }
 
 .IntroductoryText #firstSpan{
@@ -90,22 +88,13 @@ body {
   font-size: 60px;
 }
 
+#firstSpan, #secondSpan, a {
+  font-family: 'Roboto', sans-serif;
+}
 
 .sketchOne{
   position:absolute;
   top:50px;
   right:-120px;
-  /* background-color: red; */
-  /* right:0; */
-  /* top:47px; */
-  /* border-rad: 100px; */
-  /* border-start-start-radius: 3px; */
 }
 
-
-/* .profilePhoto {
-  position: absolute;
-  border-radius: 50%;
-  left: 40px;
-  top: -3px;
-} */
